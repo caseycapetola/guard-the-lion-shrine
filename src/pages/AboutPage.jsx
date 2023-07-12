@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 
-const LandingPage = () => {
+const AboutPage = () => {
   return (
     <>
       <Navbar />
-      <p>This is the landing page</p>
+      <p>AboutPage</p>
     </>
   );
 };
 
-export default LandingPage;
+export default AboutPage;
