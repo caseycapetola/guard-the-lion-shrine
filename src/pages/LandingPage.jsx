@@ -1,16 +1,18 @@
 import React, { useState } from "react";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import { Container } from "react-bootstrap";
+import "animate.css";
 
 const LandingPage = () => {
   return (
     <>
+      {/* <div className="animate__animated animate__fadeInUp"> */}
       <div className="bg-black text-white">
         <div className="flex flex-col flex-wrap text-center content-stretch">
-          <div className="bg-red-500 flex-auto">
-            What is Guard the Lion Shrine?
+          <div className="animate__animated animate__fadeInUp">
+            <div className="flex-auto text-4xl pt-16">
+              What is Guard the Lion Shrine?
+            </div>
           </div>
-          <div className="bg-blue-500 flex flex-grow">
+          <div className="flex flex-grow">
             <iframe
               className="w-full aspect-[9/16] p-16"
               title="Youtube player"
@@ -19,21 +21,12 @@ const LandingPage = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="">
+          <div className="p-32">
             <p>Testing</p>
           </div>
         </div>
       </div>
-
-      {/* <Container>
-        <div className="ratio ratio-16x9">
-          <iframe
-            src="https://www.youtube.com/embed/FCxXHcTiDLY"
-            title="GTLS Video"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </Container> */}
+      {/* </div> */}
     </>
   );
 };
