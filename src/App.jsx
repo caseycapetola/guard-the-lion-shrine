@@ -17,12 +17,15 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/schedule" element={<SchedulePage />} />
-        <Route path="/misc" element={<MiscPage />} />
+        <Route path="/guard-the-lion-shrine" element={<LandingPage />} />
+        <Route path="/guard-the-lion-shrine/about" element={<AboutPage />} />
+        <Route
+          path="/guard-the-lion-shrine/schedule"
+          element={<SchedulePage />}
+        />
+        <Route path="/guard-the-lion-shrine/misc" element={<MiscPage />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
