@@ -28,8 +28,6 @@ import Navbar from "./components/Navbar";
 // ]);
 
 function App() {
-  // return <RouterProvider router={router} />;
-
   return (
     <>
       <Navbar />
