@@ -1,13 +1,13 @@
 import React, { Children } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import poz from "../../public/poz_dark_adobe_express.svg";
+import poz from "../assets/poz_dark_adobe_express.svg";
 
 const Navbar = () => {
   const path = window.location.pathname;
   return (
     <nav className="border-black bg-[#ED70C0]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link to="/" className="flex items-center">
+        <Link to="/guard-the-lion-shrine" className="flex items-center">
           <img src={poz} className="h-8 mr-3" alt="Guard the Lion Shrine" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-black">
             Guard the Lion Shrine
@@ -39,10 +39,12 @@ const Navbar = () => {
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
           <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-            <CustomLink to="/">Home</CustomLink>
-            <CustomLink to="/about">About</CustomLink>
-            <CustomLink to="/schedule">Schedule</CustomLink>
-            <CustomLink to="/misc">Misc</CustomLink>
+            <CustomLink to="/guard-the-lion-shrine">Home</CustomLink>
+            <CustomLink to="/guard-the-lion-shrine/about">About</CustomLink>
+            <CustomLink to="/guard-the-lion-shrine/schedule">
+              Schedule
+            </CustomLink>
+            <CustomLink to="/guard-the-lion-shrine/misc">Misc</CustomLink>
           </ul>
         </div>
       </div>
