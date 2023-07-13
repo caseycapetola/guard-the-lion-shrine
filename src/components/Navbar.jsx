@@ -1,5 +1,6 @@
 import React, { Children } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import poz from "../../public/poz_dark_adobe_express";
 
 const Navbar = () => {
   const path = window.location.pathname;
@@ -7,11 +8,7 @@ const Navbar = () => {
     <nav className="border-black bg-[#ED70C0]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center">
-          <img
-            src="../../public/poz_dark_adobe_express.svg"
-            className="h-8 mr-3"
-            alt="Guard the Lion Shrine"
-          />
+          <img src={poz} className="h-8 mr-3" alt="Guard the Lion Shrine" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-black">
             Guard the Lion Shrine
           </span>
