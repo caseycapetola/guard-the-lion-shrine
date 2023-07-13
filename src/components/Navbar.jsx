@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center">
           <img
-            src="/poz_dark_adobe_express.svg"
+            src="../../public/poz_dark_adobe_express.svg"
             className="h-8 mr-3"
             alt="Guard the Lion Shrine"
           />
