@@ -1,6 +1,6 @@
 import React, { Children } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import poz from "../../public/poz_dark_adobe_express";
+import poz from "../../public/poz_dark_adobe_express.svg";
 
 const Navbar = () => {
   const path = window.location.pathname;
