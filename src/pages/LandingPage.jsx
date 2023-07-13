@@ -4,8 +4,7 @@ import Navbar from "../components/Navbar";
 const LandingPage = () => {
   return (
     <>
-      <Navbar />
-      <p>This is the landing page</p>
+      <p>Landing Page</p>
     </>
   );
 };
