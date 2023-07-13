@@ -25,7 +25,6 @@ function App() {
         />
         <Route path="/guard-the-lion-shrine/misc" element={<MiscPage />} />
       </Routes>
-      <Footer />
     </>
   );
 }
