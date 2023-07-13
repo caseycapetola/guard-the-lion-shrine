@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "animate.css";
 import Footer from "../components/Footer";
+import group_shot from "../assets/group_shot.jpg";
+import four_group from "../assets/four_group.jpg";
+import two_group from "../assets/two_group.jpg";
 
 const LandingPage = () => {
   return (
@@ -41,6 +44,41 @@ const LandingPage = () => {
               Shrine is a true representation of Penn State’s pride and
               community.
             </p>
+          </div>
+          {/* <div className="flex flex-wrap flex-grow">
+            <img
+              className="h-auto max-w-lg"
+              src={four_group}
+              alt="image description"
+            />
+            <img
+              className="h-auto max-w-md"
+              src={group_shot}
+              alt="image description"
+            />
+          </div> */}
+          <div className="grid grid-cols-2 grid-rows-2 items-center gap-4 m-16">
+            <div className="row-span-2">
+              <img
+                className="h-auto max-w-xl mx-auto justify-center"
+                src={four_group}
+                alt="image description"
+              />
+            </div>
+            <div className="items-center">
+              <img
+                className="h-auto w-96 mx-auto"
+                src={group_shot}
+                alt="image description"
+              />
+            </div>
+            <div>
+              <img
+                className="h-auto w-96 mx-auto"
+                src={two_group}
+                alt="image description"
+              />
+            </div>
           </div>
           <div>
             <Footer />
