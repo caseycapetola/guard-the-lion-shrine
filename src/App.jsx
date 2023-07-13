@@ -10,6 +10,8 @@ import AboutPage from "./pages/AboutPage";
 import SchedulePage from "./pages/SchedulePage";
 import MiscPage from "./pages/MiscPage";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
@@ -20,6 +22,7 @@ function App() {
         <Route path="/schedule" element={<SchedulePage />} />
         <Route path="/misc" element={<MiscPage />} />
       </Routes>
+      {/* <Footer /> */}
     </>
   );
 }

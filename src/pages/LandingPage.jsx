@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "animate.css";
+import Footer from "../components/Footer";
 
 const LandingPage = () => {
   return (
@@ -21,8 +22,28 @@ const LandingPage = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="p-32">
-            <p>Testing</p>
+          <div className="p-16">
+            <h3 className="text-2xl">Our Mission</h3>
+            <br />
+            <p>
+              The mission of Guard the Lion Shrine is to maintain a
+              long-standing Homecoming Week tradition of guarding the Nittany
+              Lion Shrine and putting on related programming and events for
+              students, alumni, and friends.
+            </p>
+            <br />
+            <p>
+              Held immediately after the Homecoming parade every year, Guard The
+              Lion Shrine is one of the longest-standing traditions which
+              features live music, free food, games, and activities all centered
+              around the Lion Shrine. Accompanied by Penn State ROTC volunteers
+              who stand watch of the symbol of our best, guarding the Lion
+              Shrine is a true representation of Penn State’s pride and
+              community.
+            </p>
+          </div>
+          <div>
+            <Footer />
           </div>
         </div>
       </div>
