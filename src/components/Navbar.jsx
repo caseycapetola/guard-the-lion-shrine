@@ -44,7 +44,9 @@ const Navbar = () => {
             <CustomLink to="/guard-the-lion-shrine/schedule">
               Schedule
             </CustomLink>
-            <CustomLink to="/guard-the-lion-shrine/misc">Misc</CustomLink>
+            <CustomLink to="/guard-the-lion-shrine/organizations">
+              Organizations
+            </CustomLink>
           </ul>
         </div>
       </div>

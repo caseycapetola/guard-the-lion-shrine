@@ -8,7 +8,7 @@ import {
 import LandingPage from "./pages/LandingPage";
 import AboutPage from "./pages/AboutPage";
 import SchedulePage from "./pages/SchedulePage";
-import MiscPage from "./pages/MiscPage";
+import OrgsPage from "./pages/OrgsPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -23,7 +23,10 @@ function App() {
           path="/guard-the-lion-shrine/schedule"
           element={<SchedulePage />}
         />
-        <Route path="/guard-the-lion-shrine/misc" element={<MiscPage />} />
+        <Route
+          path="/guard-the-lion-shrine/organizations"
+          element={<OrgsPage />}
+        />
       </Routes>
     </>
   );
