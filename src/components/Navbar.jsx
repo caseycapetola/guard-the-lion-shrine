@@ -67,7 +67,10 @@ const Navbar = () => {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="flex flex-col items-center justify-between min-h-[250px]">
+            <ul
+              className="flex flex-col items-center justify-between min-h-[250px]"
+              onClick={() => setIsNavOpen(false)}
+            >
               <li className="my-8 uppercase">
                 <Link to="/guard-the-lion-shrine">Home</Link>
               </li>
