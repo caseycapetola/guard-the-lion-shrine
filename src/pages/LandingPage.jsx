@@ -18,7 +18,7 @@ const LandingPage = () => {
           </div>
           <div className="flex flex-grow">
             <iframe
-              className="w-full aspect-[9/16] p-16"
+              className="w-full aspect-[6/5] p-16 md:aspect-[3/4] lg:aspect-[9/16]"
               title="Youtube player"
               sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
               src={"https://www.youtube.com/embed/FCxXHcTiDLY"}
@@ -57,10 +57,10 @@ const LandingPage = () => {
               alt="image description"
             />
           </div> */}
-          <div className="grid grid-cols-2 grid-rows-2 items-center gap-4 m-16">
-            <div className="row-span-2">
+          <div className="grid grid-cols-1 grid-rows-3 items-center gap-4 m-16 lg:grid-cols-2 md:grid-rows-2 ">
+            <div className="row-span-1 lg:row-span-2">
               <img
-                className="h-auto max-w-xl mx-auto justify-center"
+                className="w-96 mx-auto justify-center lg:w-auto"
                 src={four_group}
                 alt="image description"
               />
