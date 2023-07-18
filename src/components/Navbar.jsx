@@ -69,16 +69,20 @@ const Navbar = () => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="my-8 uppercase">
-                <a href="/guard-the-lion-shrine">Home</a>
+                <CustomLink to="/guard-the-lion-shrine">Home</CustomLink>
               </li>
               <li className="my-8 uppercase">
-                <a href="/guard-the-lion-shrine/about">About</a>
+                <CustomLink to="/guard-the-lion-shrine/about">About</CustomLink>
               </li>
               <li className="my-8 uppercase">
-                <a href="/guard-the-lion-shrine/schedule">Schedule</a>
+                <CustomLink to="/guard-the-lion-shrine/schedule">
+                  Schedule
+                </CustomLink>
               </li>
               <li className="my-8 uppercase">
-                <a href="/guard-the-lion-shrine/organizations">Organizations</a>
+                <CustomLink to="/guard-the-lion-shrine/organizations">
+                  Organizations
+                </CustomLink>
               </li>
             </ul>
           </div>
