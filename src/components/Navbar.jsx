@@ -69,20 +69,18 @@ const Navbar = () => {
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="my-8 uppercase">
-                <CustomLink to="/guard-the-lion-shrine">Home</CustomLink>
+                <Link to="/guard-the-lion-shrine">Home</Link>
               </li>
               <li className="my-8 uppercase">
-                <CustomLink to="/guard-the-lion-shrine/about">About</CustomLink>
+                <Link to="/guard-the-lion-shrine/about">About</Link>
               </li>
               <li className="my-8 uppercase">
-                <CustomLink to="/guard-the-lion-shrine/schedule">
-                  Schedule
-                </CustomLink>
+                <Link to="/guard-the-lion-shrine/schedule">Schedule</Link>
               </li>
               <li className="my-8 uppercase">
-                <CustomLink to="/guard-the-lion-shrine/organizations">
+                <Link to="/guard-the-lion-shrine/organizations">
                   Organizations
-                </CustomLink>
+                </Link>
               </li>
             </ul>
           </div>
@@ -121,5 +119,13 @@ function CustomLink({ to, children, ...props }) {
     </li>
   );
 }
+
+// function HamburgerLink({to, children, ...props}) {
+//   const resolvedPath = useResolvedPath(to);
+//   const isActive = useMatch({ path: resolvedPath.pathname, end: true});
+//   return (
+
+//   );
+// }
 
 export default Navbar;
