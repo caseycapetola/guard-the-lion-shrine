@@ -7,5 +7,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   // NEED base UNCOMMENTED TO DEPLOY TO GITHUB PAGES; comment to test locally
-  base: "/guard-the-lion-shrine/",
+  // base: "/guard-the-lion-shrine/",
 });

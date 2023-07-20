@@ -11,7 +11,7 @@ const LandingPage = () => {
       {/* <div className="animate__animated animate__fadeInUp"> */}
       <div className="bg-black text-white">
         <div className="flex flex-col flex-wrap text-center content-stretch">
-          <div className="animate__animated animate__fadeInUp">
+          <div className="animate__animated animate__fadeIn">
             <div className="flex-auto text-4xl pt-16">
               What is Guard the Lion Shrine?
             </div>
