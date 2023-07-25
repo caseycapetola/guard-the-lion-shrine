@@ -74,9 +74,9 @@ const Navbar = () => {
               <li className="my-8 uppercase">
                 <Link to="/guard-the-lion-shrine">Home</Link>
               </li>
-              <li className="my-8 uppercase">
+              {/* <li className="my-8 uppercase">
                 <Link to="/guard-the-lion-shrine/about">About</Link>
-              </li>
+              </li> */}
               <li className="my-8 uppercase">
                 <Link to="/guard-the-lion-shrine/schedule">Schedule</Link>
               </li>
@@ -91,7 +91,7 @@ const Navbar = () => {
         <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
           <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             <CustomLink to="/guard-the-lion-shrine">Home</CustomLink>
-            <CustomLink to="/guard-the-lion-shrine/about">About</CustomLink>
+            {/* <CustomLink to="/guard-the-lion-shrine/about">About</CustomLink> */}
             <CustomLink to="/guard-the-lion-shrine/schedule">
               Schedule
             </CustomLink>
